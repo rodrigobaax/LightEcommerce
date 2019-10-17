@@ -1,0 +1,10 @@
+{
+    "/posts": {
+      "target": "https://api.cartolafc.globo.com",
+      "secure": true,
+      "pathRewrite": {
+      "^/atletas/pontuados": ""
+    },
+      "changeOrigin": true
+    }
+  }

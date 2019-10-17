@@ -1,0 +1,25 @@
+<h1>Weather forecast</h1>
+
+<p>This component demonstrates fetching data from the server.</p>
+
+<p *ngIf="!products"><em>Loading...</em></p>
+
+<table class='table table-striped' *ngIf="products">
+  <thead>
+    <tr>
+      <th>Id Name</th>
+      <th>Price</th>
+      <th>Com Desconto</th>
+      <th>Sem Desconto</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let product of products">
+      <td>{{ product.name  }}</td>
+      <td>{{ product.price | currency: 'USD' }}</td>
+      <td>{{ product.value | discount: 10 }}</td>
+      <td>{{ product.value | discount: 50 }}</td>
+      <td>{{ product.value }}</td>
+    </tr>
+  </tbody>
+</table>
