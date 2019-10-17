@@ -28,7 +28,7 @@ namespace LightEcommerce.Controllers
                     Price = Convert.ToString(i),
                     Value = i * i * i,
                 };
-
+                
                 products.Add(p);
             }
 
