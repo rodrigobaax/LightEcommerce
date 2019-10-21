@@ -28,8 +28,7 @@
   <ItemGroup>
     <ProjectReference Include="..\CrossCutting.IoC\LightEcommerce.CrossCutting.IoC.csproj" />
     <ProjectReference Include="..\LightEcommerce.Application\LightEcommerce.Application.csproj" />
-    <ProjectReference Include="..\LightEcommerce.CrossCutting\LightEcommerce.CrossCutting.csproj" />
-    <ProjectReference Include="..\LightEcommerce.Data\LightEcommerce.Data.csproj" />
+    <ProjectReference Include="..\LightEcommerce.CrossCutting.Identity\LightEcommerce.CrossCutting.Identity.csproj" />
   </ItemGroup>
 
   <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">

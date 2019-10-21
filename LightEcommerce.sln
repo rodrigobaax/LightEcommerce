@@ -11,17 +11,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{534895
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{AB854F07-EF59-4650-93A5-1D2F6EFCA70E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightEcommerce.Domain", "LightEcommerce.Domain\LightEcommerce.Domain.csproj", "{0B8F85AA-3FC3-4D40-A5C9-E7F726CC96E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LightEcommerce.Domain", "LightEcommerce.Domain\LightEcommerce.Domain.csproj", "{0B8F85AA-3FC3-4D40-A5C9-E7F726CC96E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightEcommerce.Data", "LightEcommerce.Data\LightEcommerce.Data.csproj", "{9570034D-F786-4FAA-9977-CB30AC5EEC3D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LightEcommerce.Data", "LightEcommerce.Data\LightEcommerce.Data.csproj", "{9570034D-F786-4FAA-9977-CB30AC5EEC3D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightEcommerce.Domain.Core", "LightEcommerce.Domain.Core\LightEcommerce.Domain.Core.csproj", "{16CF1144-C333-47E1-93C7-9250B7CD5A68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LightEcommerce.Domain.Core", "LightEcommerce.Domain.Core\LightEcommerce.Domain.Core.csproj", "{16CF1144-C333-47E1-93C7-9250B7CD5A68}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightEcommerce.Application", "LightEcommerce.Application\LightEcommerce.Application.csproj", "{881A23B6-4E99-4193-9508-2600E928679E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LightEcommerce.Application", "LightEcommerce.Application\LightEcommerce.Application.csproj", "{881A23B6-4E99-4193-9508-2600E928679E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightEcommerce.CrossCutting", "LightEcommerce.CrossCutting\LightEcommerce.CrossCutting.csproj", "{AAA36174-5078-4586-993B-471DB74712B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LightEcommerce.CrossCutting.IoC", "CrossCutting.IoC\LightEcommerce.CrossCutting.IoC.csproj", "{47493B72-2160-4E78-8C0C-C064750447A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightEcommerce.CrossCutting.IoC", "CrossCutting.IoC\LightEcommerce.CrossCutting.IoC.csproj", "{47493B72-2160-4E78-8C0C-C064750447A9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightEcommerce.CrossCutting.Identity", "LightEcommerce.CrossCutting.Identity\LightEcommerce.CrossCutting.Identity.csproj", "{DB107D5B-2D0C-4018-A574-7CA3CF1E3618}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,14 +49,14 @@ Global
 		{881A23B6-4E99-4193-9508-2600E928679E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{881A23B6-4E99-4193-9508-2600E928679E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{881A23B6-4E99-4193-9508-2600E928679E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AAA36174-5078-4586-993B-471DB74712B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AAA36174-5078-4586-993B-471DB74712B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AAA36174-5078-4586-993B-471DB74712B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AAA36174-5078-4586-993B-471DB74712B8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{47493B72-2160-4E78-8C0C-C064750447A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{47493B72-2160-4E78-8C0C-C064750447A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47493B72-2160-4E78-8C0C-C064750447A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47493B72-2160-4E78-8C0C-C064750447A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB107D5B-2D0C-4018-A574-7CA3CF1E3618}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB107D5B-2D0C-4018-A574-7CA3CF1E3618}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB107D5B-2D0C-4018-A574-7CA3CF1E3618}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB107D5B-2D0C-4018-A574-7CA3CF1E3618}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -66,8 +66,8 @@ Global
 		{9570034D-F786-4FAA-9977-CB30AC5EEC3D} = {AB854F07-EF59-4650-93A5-1D2F6EFCA70E}
 		{16CF1144-C333-47E1-93C7-9250B7CD5A68} = {53489566-68B2-41F6-8CFB-46330C3DEB79}
 		{881A23B6-4E99-4193-9508-2600E928679E} = {57E86694-5E87-4D61-93A8-72352E195AD0}
-		{AAA36174-5078-4586-993B-471DB74712B8} = {AB854F07-EF59-4650-93A5-1D2F6EFCA70E}
 		{47493B72-2160-4E78-8C0C-C064750447A9} = {AB854F07-EF59-4650-93A5-1D2F6EFCA70E}
+		{DB107D5B-2D0C-4018-A574-7CA3CF1E3618} = {AB854F07-EF59-4650-93A5-1D2F6EFCA70E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B86F29A2-E38C-4C61-A0F3-8AB614CE35A2}

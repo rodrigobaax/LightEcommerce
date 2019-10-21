@@ -1,7 +1,7 @@
 using LightEcommerce.CrossCutting.IoC;
 using LightEcommerce.Application.Interfaces;
 using LightEcommerce.Application.Services;
-using LightEcommerce.CrossCutting.Data;
+using LightEcommerce.CrossCutting.Identity.Data;
 using LightEcommerce.Domain.Interfaces;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
